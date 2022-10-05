@@ -47,7 +47,9 @@ body {
     top: -15vh;
     left: -15vw;
     transition: 0.4s ease;
+    z-index: 1;
 }
+
 
 .slide.active {
     opacity: 1;
@@ -56,10 +58,10 @@ body {
 .arrow {
     position: fixed;
     background-color: transparent;
-    color: white;
+    color: #fff;
     padding: 20px;
     font-size: 30px;
-    border: 2px solid orange;
+    border: 2px;
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
@@ -70,9 +72,9 @@ body {
 }
 
 .left-arrow {
-    left: calc(150vw - 65px);
+    left: calc(15vw - 65px);
 }
 
 .right-arrow {
-    right: calc(150vw - 65px);
+    right: calc(15vw - 65px);
 }
